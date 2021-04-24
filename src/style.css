@@ -241,6 +241,23 @@ nav a:hover {
   background-position: top center;
   background-attachment: fixed;
 }
+.container1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+.popis_kavarny {
+  padding-top: 30rem;
+  padding-bottom: 3rem;
+
+  text-align: center;
+}
+
+.popis_kavarny p {
+  font-size: 1.2rem;
+}
 
 .contacts {
   margin-bottom: 4rem;
@@ -274,6 +291,10 @@ nav a:hover {
 
   nav {
     width: initial;
+  }
+
+  .nav-btn {
+    display: none;
   }
 
   nav a {
